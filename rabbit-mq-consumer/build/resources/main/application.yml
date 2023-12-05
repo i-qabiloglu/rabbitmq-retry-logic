@@ -1,0 +1,16 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: best
+    password: best
+
+app:
+  rabbitmq:
+    main-exchange: main-exchange
+    retry-exchange: retry-exchange
+    main-routing-key: Routing_Key
+    main-queue: mainQueue
+    retry-queue: retryQueue
+    undelivered-queue: undeliveredQueue
+
